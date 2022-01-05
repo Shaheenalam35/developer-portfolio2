@@ -1,0 +1,93 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.welcome {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.orange {
+  color: orange;
+}
+
+.intro {
+  width: 60%;
+  padding-top: 70px;
+}
+
+.img {
+  width: 40%;
+}
+
+.img img {
+  width: 400px;
+}
+
+.img-dream {
+  width: 300px;
+  height: auto;
+  margin-right: 50px;
+  padding-top: 100px;
+}
+.hire-me {
+  width: 120px;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  background-image: linear-gradient(orange, red);
+}
+
+.hire-me a {
+  text-decoration: none;
+}
+
+.dream {
+  display: flex;
+  width: 100%;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+.big-dream {
+  width: 60%;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.experience {
+  display: flex;
+  width: 100%;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  margin-bottom: 39px;
+}
+
+.full-stack {
+  width: 40%;
+  margin-left: 5%;
+  border-image-slice: fill;
+}
+.baby {
+  width: 40%;
+  margin-left: 10%;
+}
+footer p {
+  text-align: center;
+}
